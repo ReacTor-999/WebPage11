@@ -1,0 +1,60 @@
+.flex-cols {
+  display: flex;
+  flex-direction: row;
+}
+.flex-cols > * {
+  margin-right: 10%;
+  flex-basis: auto;
+  flex-grow: 1;
+}
+.flex-cols > :first-child {
+  margin-left: 10%;
+}
+.flex-cols > :last-child {
+  margin-right: 10%;
+}
+.flex-cols li {
+  display: flex;
+  position: relative;
+}
+.flex-cols .flex-cols > :first-child {
+  margin-left: 0;
+}
+.flex-cols .flex-cols > :last-child {
+  margin-right: 0;
+}
+#tab-buttons {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+#tab-buttons button {
+  padding: 30pt;
+}
+#hello {
+  padding-top: 150pt;
+}
+#hello #col-hello-article {
+  flex-basis: 60%;
+}
+#hello #col-get-started {
+  flex-basis: 40%;
+  height: 50%;
+}
+#social-media {
+  position: sticky;
+  top: 45pt;
+}
+#pricing .flex-cols {
+  width: 100%;
+  align-items: flex-end;
+}
+#about .flex-cols .flex-cols > * {
+  margin-right: 10pt;
+}
+.pricing-option {
+  margin-inline: 3%;
+}
+section {
+  padding-block: 70pt;
+}

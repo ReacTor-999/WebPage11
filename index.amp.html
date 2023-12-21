@@ -1,0 +1,1187 @@
+<!DOCTYPE html>
+<html amp lang="zxx">
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>AXIT - Modern axure template for beautiful prototypes</title>
+
+	<!--
+	<link rel="stylesheet/less" type="text/css" href="main.less" />
+	<script src="https://cdn.jsdelivr.net/npm/less" ></script>
+	-->
+
+	<link rel="canonical" href="http://localhost/11/index.html">
+
+	<style amp-boilerplate>body{-webkit-animation:-amp-start 8s steps(1,end) 0s 1 normal both;-moz-animation:-amp-start 8s steps(1,end) 0s 1 normal both;-ms-animation:-amp-start 8s steps(1,end) 0s 1 normal both;animation:-amp-start 8s steps(1,end) 0s 1 normal both}@-webkit-keyframes -amp-start{from{visibility:hidden}to{visibility:visible}}@-moz-keyframes -amp-start{from{visibility:hidden}to{visibility:visible}}@-ms-keyframes -amp-start{from{visibility:hidden}to{visibility:visible}}@-o-keyframes -amp-start{from{visibility:hidden}to{visibility:visible}}@keyframes -amp-start{from{visibility:hidden}to{visibility:visible}}</style><noscript><style amp-boilerplate>body{-webkit-animation:none;-moz-animation:none;-ms-animation:none;animation:none}</style></noscript>
+
+	<style amp-custom>
+		@font-face {
+		  font-family: 'Raleway';
+		  font-style: normal;
+		  font-weight: 300;
+		  font-display: swap;
+		  src: url(https://fonts.gstatic.com/s/raleway/v29/1Ptxg8zYS_SKggPN4iEgvnHyvveLxVuEooCP.ttf) format('truetype');
+		}
+		@font-face {
+		  font-family: 'Raleway';
+		  font-style: normal;
+		  font-weight: 400;
+		  font-display: swap;
+		  src: url(https://fonts.gstatic.com/s/raleway/v29/1Ptxg8zYS_SKggPN4iEgvnHyvveLxVvaooCP.ttf) format('truetype');
+		}
+		@font-face {
+		  font-family: 'Raleway';
+		  font-style: normal;
+		  font-weight: 700;
+		  font-display: swap;
+		  src: url(https://fonts.gstatic.com/s/raleway/v29/1Ptxg8zYS_SKggPN4iEgvnHyvveLxVs9pYCP.ttf) format('truetype');
+		}
+		@font-face {
+		  font-family: 'Open Sans';
+		  font-style: italic;
+		  font-weight: 300;
+		  font-stretch: normal;
+		  font-display: swap;
+		  src: url(https://fonts.gstatic.com/s/opensans/v36/memQYaGs126MiZpBA-UFUIcVXSCEkx2cmqvXlWq8tWZ0Pw86hd0Rk5hkaVc.ttf) format('truetype');
+		}
+		@font-face {
+		  font-family: 'Open Sans';
+		  font-style: normal;
+		  font-weight: 300;
+		  font-stretch: normal;
+		  font-display: swap;
+		  src: url(https://fonts.gstatic.com/s/opensans/v36/memSYaGs126MiZpBA-UvWbX2vVnXBbObj2OVZyOOSr4dVJWUgsiH0C4n.ttf) format('truetype');
+		}
+		@font-face {
+		  font-family: 'Open Sans';
+		  font-style: normal;
+		  font-weight: 600;
+		  font-stretch: normal;
+		  font-display: swap;
+		  src: url(https://fonts.gstatic.com/s/opensans/v36/memSYaGs126MiZpBA-UvWbX2vVnXBbObj2OVZyOOSr4dVJWUgsgH1y4n.ttf) format('truetype');
+		}
+		@font-face {
+		  font-family: 'Open Sans';
+		  font-style: normal;
+		  font-weight: 700;
+		  font-stretch: normal;
+		  font-display: swap;
+		  src: url(https://fonts.gstatic.com/s/opensans/v36/memSYaGs126MiZpBA-UvWbX2vVnXBbObj2OVZyOOSr4dVJWUgsg-1y4n.ttf) format('truetype');
+		}
+		div.with-icon {
+		  display: flex;
+		  flex-direction: row;
+		  align-items: center;
+		}
+		div.with-icon .content {
+		  margin-left: 5%;
+		  flex-grow: 1;
+		}
+		div.with-icon .content > * {
+		  margin: 0;
+		  margin-top: 5pt;
+		}
+		div.icon-circled {
+		  min-width: fit-content;
+		  width: fit-content;
+		  aspect-ratio: 1 / 1;
+		  margin: auto;
+		  border-radius: 50%;
+		  display: flex;
+		  flex-direction: row;
+		  justify-content: center;
+		}
+		div.icon-circled i {
+		  margin: auto;
+		  margin-inline: 7pt;
+		}
+		.img-container amp-img {
+		  display: block;
+		}
+		a.embedded-link {
+		  position: absolute;
+		  width: 100%;
+		  height: 100%;
+		}
+		.flex-rows {
+		  display: flex;
+		  flex-direction: column;
+		}
+		.flex-rows > * {
+		  margin-top: 15pt;
+		}
+		.flex-rows > :first-child {
+		  margin-top: 0;
+		}
+		.img-card {
+		  box-shadow: rgba(0, 0, 0, 0.3) 0pt 20pt 50pt -3pt, rgba(0, 0, 0, 0.3) 0pt 4pt 6pt -2pt;
+		  padding: 0;
+		  width: fit-content;
+		  height: fit-content;
+		}
+		ul {
+		  list-style: none;
+		  padding: 0;
+		  margin: auto;
+		}
+		button {
+		  width: fit-content;
+		  padding: 7pt;
+		  padding-inline: 20pt;
+		  font-size: 12pt;
+		  font-weight: 600;
+		  justify-self: flex-end;
+		}
+		button.btn-light {
+		  color: white;
+		  border: 2pt solid white;
+		  background: transparent;
+		}
+		button.btn-dark {
+		  border: none;
+		  color: white;
+		  background: #333333;
+		}
+		button.btn-highlight {
+		  padding-top: 10pt;
+		  padding-bottom: 10pt;
+		  color: white;
+		  border: none;
+		  background: #ff8b38;
+		  border-radius: 3pt;
+		}
+		input {
+		  font-size: 11pt;
+		  box-sizing: border-box;
+		  padding: 5pt;
+		  padding-left: 1em;
+		  border: none;
+		  border-bottom: solid 1pt #a5a5a5;
+		}
+		input::placeholder {
+		  font-family: "Open Sans", "Arial", sans-serif;
+		  font-size: 11pt;
+		  color: #a5a5a5;
+		}
+		textarea {
+		  font-size: 11pt;
+		  box-sizing: border-box;
+		  width: 100%;
+		  min-height: 100pt;
+		  padding: 5pt;
+		  padding-left: 1em;
+		  border: none;
+		  border-bottom: solid 1pt #a5a5a5;
+		}
+		textarea::placeholder {
+		  font-family: "Open Sans", "Arial", sans-serif;
+		  font-size: 11pt;
+		  color: #a5a5a5;
+		}
+		span.separator {
+		  display: block;
+		  padding: 1.25pt;
+		  padding-inline: 2.5em;
+		  width: 0;
+		  height: 0;
+		  border-radius: 3pt;
+		}
+		span.separator-highlight {
+		  background: #ff8b38;
+		}
+		span.separator-light {
+		  background: white;
+		}
+		html {
+		  scroll-behavior: smooth;
+		  font-family: "Open Sans", "Arial", sans-serif;
+		  font-size: 11pt;
+		  font-weight: 300;
+		}
+		body {
+		  margin: 0;
+		}
+		h1,
+		h2,
+		h3,
+		h4,
+		h5,
+		p {
+		  margin: 0;
+		}
+		h1 {
+		  font-family: "Raleway", "Arial", sans-serif;
+		  font-size: 28pt;
+		  text-transform: uppercase;
+		  text-align: center;
+		  font-weight: 400;
+		}
+		h2,
+		h3 {
+		  font-family: "Open Sans", "Arial", sans-serif;
+		  font-weight: 700;
+		}
+		h2 {
+		  font-size: 16pt;
+		}
+		h3 {
+		  font-size: 11pt;
+		}
+		.text-hl {
+		  color: #ff8b38;
+		}
+		.bg-dark {
+		  color: #bdbdbd;
+		}
+		.bg-dark p {
+		  color: #bdbdbd;
+		}
+		.bg-dark h1,
+		.bg-dark h2,
+		.bg-dark h3,
+		.bg-dark h4,
+		.bg-dark h5 {
+		  color: white;
+		}
+		.bg-light {
+		  color: #86878b;
+		}
+		.bg-light h1,
+		.bg-light h2,
+		.bg-light h3,
+		.bg-light h4,
+		.bg-light h5 {
+		  color: #383838;
+		}
+		.background-color {
+		  background-color: white;
+		}
+		.background-color:nth-child(even) {
+		  background-color: #f5f5f5;
+		}
+		div.logo {
+		  font-family: "Raleway", "Arial", sans-serif;
+		  position: relative;
+		  display: flex;
+		  flex-direction: row;
+		  margin-top: auto;
+		  margin-bottom: auto;
+		}
+		div.logo .left {
+		  font-weight: 700;
+		  color: white;
+		}
+		div.logo .right {
+		  font-weight: 300;
+		  color: #ff8b38;
+		}
+		nav {
+		  background: black;
+		  position: sticky;
+		  top: 0;
+		  padding-block: 7pt;
+		  z-index: 1000;
+		}
+		nav .logo {
+		  font-size: 28pt;
+		}
+		nav ul {
+		  font-size: 11pt;
+		  font-weight: 600;
+		  justify-content: space-between;
+		}
+		#hello {
+		  min-height: 500pt;
+		  background-image: url('image.webp');
+		  background-repeat: no-repeat;
+		  background-size: cover;
+		}
+		#hello .flex-cols {
+		  align-items: center;
+		  justify-content: space-between;
+		}
+		#hello #col-hello-article {
+		  font-size: 12pt;
+		}
+		#hello #col-hello-article .logo {
+		  font-size: 60pt;
+		}
+		#hello #col-hello-article h1 {
+		  text-align: left;
+		}
+		#hello #col-get-started h2 {
+		  background-color: #f5f5f5;
+		}
+		.form-card {
+		  height: 300pt;
+		  background: white;
+		  border-radius: 3pt;
+		  display: flex;
+		  flex-direction: column;
+		}
+		.form-card .header {
+		  border-top-left-radius: 3pt;
+		  border-top-right-radius: 3pt;
+		  padding-block: 10pt;
+		  text-align: center;
+		}
+		.form-card .inputs {
+		  height: 100%;
+		  margin-inline: 10%;
+		  display: flex;
+		  flex-direction: column;
+		  justify-content: space-evenly;
+		}
+		.form-card .submit {
+		  width: 100%;
+		  padding-block: 15pt;
+		  border-top-left-radius: 0;
+		  border-top-right-radius: 0;
+		}
+		#social-media {
+		  box-shadow: rgba(0, 0, 0, 0.1) 0px 10px 15px -3px, rgba(0, 0, 0, 0.05) 0px 4px 6px -2px;
+		  background: white;
+		  align-items: center;
+		  z-index: 999;
+		}
+		#social-media div {
+		  margin-left: 10%;
+		  flex-basis: 40%;
+		  padding: 7pt;
+		}
+		#social-media div .flex-rows > * {
+		  margin-top: 5pt;
+		}
+		#social-media div h1 {
+		  color: #383838;
+		}
+		#social-media ul {
+		  display: flex;
+		  flex-direction: row;
+		  margin-inline: 10%;
+		  flex-basis: 60%;
+		  justify-content: space-between;
+		  color: #cccccc;
+		}
+		#social-media ul li {
+		  margin-inline: 10pt;
+		}
+		#tabs-feature {
+		  min-height: 500pt;
+		  align-items: center;
+		  display: flex;
+		  flex-direction: row;
+		}
+		#tabs-feature .flex-cols > * {
+		  margin-right: 5%;
+		}
+		#tabs-feature .flex-cols :last-child {
+		  margin-right: 10%;
+		}
+		#tabs-feature #tab-buttons button {
+		  margin: 0.75pt;
+		  aspect-ratio: 1 / 1;
+		  text-transform: uppercase;
+		  font-weight: 600;
+		}
+		#tabs-feature #tab-buttons .checked {
+		  background: #ff8b38;
+		}
+		#tabs-feature #tab-image .reflection {
+		  margin: 0;
+		  transform: scaleY(-1);
+		  opacity: 0.5;
+		}
+		#sublist-feature {
+		  min-height: 500pt;
+		}
+		#sublist-feature .icon-circled {
+		  min-width: 30pt;
+		  margin-inline: 0;
+		}
+		#picture-feature {
+		  min-height: 500pt;
+		}
+		#picture-feature .flex-cols {
+		  justify-content: space-between;
+		}
+		#picture-feature .img-col {
+		  align-content: center;
+		}
+		#about {
+		  min-height: 500pt;
+		  text-align: center;
+		}
+		#about .icon-circled {
+		  width: 50pt;
+		}
+		#about .separator-highlight {
+		  margin-inline: auto;
+		}
+		#about .flex-cols {
+		  margin-top: 50pt;
+		}
+		#pricing {
+		  min-height: 500pt;
+		}
+		#pricing h2,
+		#pricing h3,
+		#pricing p {
+		  padding-block: 5pt;
+		}
+		#pricing .separator {
+		  margin-inline: auto;
+		}
+		#pricing div {
+		  text-align: center;
+		}
+		#pricing .pricing-option .offer-header {
+		  background: #333333;
+		  margin-bottom: 1pt;
+		}
+		#pricing .pricing-option .offer-price {
+		  background: #333333;
+		}
+		#pricing .pricing-option .offer-price p {
+		  font-style: italic;
+		}
+		#pricing .pricing-option .price-label {
+		  display: flex;
+		  justify-content: center;
+		}
+		#pricing .pricing-option .price-label h1 {
+		  font-weight: 700;
+		}
+		#pricing .pricing-option .price-label .dollar {
+		  margin-bottom: 15pt;
+		  margin-top: auto;
+		  font-size: 24pt;
+		}
+		#pricing .pricing-option .price-label .number {
+		  font-size: 60pt;
+		}
+		#pricing .pricing-option .offer-popularity {
+		  min-height: 5pt;
+		  background: #ff8b38;
+		  text-transform: uppercase;
+		}
+		#pricing .pricing-option .offer-features {
+		  text-transform: uppercase;
+		  justify-content: center;
+		}
+		#pricing .pricing-option .offer-features li {
+		  box-sizing: border-box;
+		  border: solid 1pt #a5a5a5;
+		  width: 100%;
+		  border-top: 0;
+		  background: white;
+		}
+		#pricing .pricing-option .offer-features p {
+		  width: 100%;
+		}
+		#reviews {
+		  min-height: 500pt;
+		  text-align: center;
+		}
+		#reviews .separator-highlight {
+		  margin-inline: auto;
+		}
+		.comment .comment-text {
+		  border-radius: 3pt;
+		  background: #f5f5f5;
+		  text-align: left;
+		  padding: 7pt;
+		  font-style: italic;
+		}
+		.comment .triangle {
+		  width: 0;
+		  height: 0;
+		  margin-left: 23pt;
+		  border: 8pt solid transparent;
+		  border-bottom: 0;
+		  border-top: 10pt solid #f5f5f5;
+		}
+		.customer {
+		  margin-top: 10pt;
+		  display: flex;
+		  flex-direction: row;
+		}
+		.customer .customer-avatar {
+		  margin-left: 4pt;
+		  flex-basis: 20%;
+		}
+		.customer .customer-avatar amp-img {
+		  aspect-ratio: 1 / 1;
+		  width: 50pt;
+		  border-radius: 50%;
+		}
+		.customer .customer-about {
+		  margin-left: 10pt;
+		  flex-basis: 80%;
+		  text-align: left;
+		  display: flex;
+		  flex-direction: column;
+		}
+		.customer .customer-about p {
+		  margin: 0;
+		  margin-bottom: auto;
+		}
+		#download-section {
+		  background-image: url("panel.webp");
+		  background-repeat: no-repeat;
+		  background-size: cover;
+		  text-align: center;
+		}
+		#download-section .flex-rows > * {
+		  margin-top: 20pt;
+		  margin-inline: auto;
+		}
+		#download-section .img-foreground {
+		  justify-content: center;
+		}
+		#contact {
+		  min-height: 500pt;
+		  text-align: center;
+		}
+		#contact .separator-highlight {
+		  margin: auto;
+		}
+		#contact .flex-rows > * {
+		  margin-top: 20pt;
+		}
+		#contact textarea {
+		  resize: none;
+		  height: 100%;
+		}
+		#contact form {
+		  justify-self: center;
+		}
+		#contact form button {
+		  margin-inline: auto;
+		}
+		div.icon-circled {
+		  border: solid 2.5pt #ff8b38;
+		  color: #ff8b38;
+		}
+		footer {
+		  padding-block: 15pt;
+		  background: black;
+		  text-align: center;
+		}
+		footer ul {
+		  display: flex;
+		  flex-direction: row;
+		  justify-content: center;
+		  color: #cccccc;
+		}
+		footer ul li {
+		  margin-inline: 7pt;
+		}
+		footer p {
+		  font-size: 10pt;
+		}
+		.flex-cols {
+		  display: flex;
+		  flex-direction: column;
+		}
+		.flex-cols > * {
+		  margin-inline: 10%;
+		  margin-bottom: 10pt;
+		}
+		.flex-cols > :first-child {
+		  margin-top: 10pt;
+		}
+		.flex-cols > :last-child {
+		  margin-bottom: 10pt;
+		}
+		.flex-cols li {
+		  display: flex;
+		  position: relative;
+		}
+		.flex-cols .flex-cols > * {
+		  margin-inline: 0;
+		}
+		#tab-buttons {
+		  display: flex;
+		  flex-direction: row;
+		  justify-content: center;
+		}
+		#tab-buttons button {
+		  padding: 20pt;
+		}
+		.img-container {
+		  align-content: center;
+		}
+		.img-container amp-img {
+		  margin: 0;
+		  width: 100%;
+		}
+		#hello #col-hello-article {
+		  flex-basis: 60%;
+		}
+		#hello #col-get-started {
+		  width: 80%;
+		}
+		#hello #col-get-started .form-card {
+		  height: 300pt;
+		}
+		.pricing-option {
+		  margin-bottom: 30pt;
+		  margin-inline: 10%;
+		}
+		section {
+		  padding-block: 30pt;
+		}
+	</style>
+
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+
+	<script async custom-element="amp-form" src="https://cdn.ampproject.org/v0/amp-form-0.1.js"></script>
+	<script async src="https://cdn.ampproject.org/v0.js"></script>
+</head>
+<body>
+	<nav id="nav" class="bg-dark">
+		<div class="flex-cols">
+			<div class="logo">
+				<span class="left">AX</span>
+				<span class="right">IT</span>
+				<a class="embedded-link" href="#"></a>
+			</div>
+
+			<ul class="flex-cols">
+				<li>
+					<span>Features</span>
+					<a class="embedded-link" href="#features"></a>
+				</li>
+
+				<li>
+					<span>About</span>
+					<a class="embedded-link" href="#about"></a>
+				</li>
+
+				<li>
+					<span>Pricing</span>
+					<a class="embedded-link" href="#pricing"></a>
+				</li>
+
+				<li>
+					<span>Reviews</span>
+					<a class="embedded-link" href="#reviews"></a>
+				</li>
+
+				<li>
+					<span>Contact</span>
+					<a class="embedded-link" href="#contact"></a>
+				</li>
+			</ul>
+		</div>
+	</nav>
+
+	<section id="hello">
+		<div class="flex-cols">
+			<div class="bg-dark flex-rows" id="col-hello-article">
+				<div class="logo">
+					<span class="left">AX</span>
+					<span class="right">IT</span>
+				</div>
+
+				<h1>Modern axure template for beautiful prototypes</h1>
+
+				<span class="separator separator-light"></span>
+
+				<p>
+					Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean
+					euismod bibendum laoreet. Proin gravida dolor sit amet lacus
+					accumsan et viverra justo commodo.
+				</p>
+
+				<button class="btn-light">Download</button>
+			</div>
+
+			<div id="col-get-started">
+				<form class="form-card" name="get-started" method="post" action-xhr="#" >
+					<h2 class="header">Try Your&nbsp;<span class="text-hl">FREE</span>&nbsp;Trial Today</h2>
+
+					<div class="inputs">
+						<input type="text" placeholder="Name">
+						<input type="text" placeholder="Email">
+						<input type="password" placeholder="Password">
+					</div>
+
+					<button class="btn-highlight submit" type="submit">Get Started</button>
+				</form>
+			</div>
+		</div>
+	</section>
+
+	<div id="features">
+		<aside id="social-media" class="bg-light background-color flex-cols"> 
+			<div class="flex-rows">
+				<h2>Social Media</h2>
+				<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean euismod bibendum laoreet.</p>
+			</div>
+
+			<ul>
+				<li>
+					<i class="fa-brands fa-facebook-f fa-3x"></i>
+					<a class="embedded-link" href=""></a>
+				</li>
+				<li>
+					<i class="fa-brands fa-linkedin fa-3x"></i>
+					<a class="embedded-link" href=""></a>
+				</li>
+				<li>
+					<i class="fa-brands fa-pinterest fa-3x"></i>
+					<a class="embedded-link" href=""></a>
+				</li>
+				<li>
+					<i class="fa-brands fa-instagram fa-3x"></i>
+					<a class="embedded-link" href=""></a>
+				</li>
+				<li>
+					<i class="fa-brands fa-x-twitter fa-3x"></i>
+					<a class="embedded-link" href=""></a>
+				</li>
+			</ul>
+		</aside>
+
+
+		<section id="tabs-feature" class="background-color bg-light">
+			<div class="flex-cols">
+				<div id="tab-buttons">
+					<button class="btn-dark checked">tab 1</button>
+					<button class="btn-dark">tab 2</button>
+					<button class="btn-dark">tab 3</button>
+				</div>
+
+				<div class="flex-rows" id="tab-description">
+					<h2>Tabs with soft transitionitg  effect.</h2>
+					<p>
+						Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean euismod 
+ 						bibendum laoreet. Proin gravida dolor sit amet lacus accumsan et viverra 
+						justo commodo. Proin sodales pulvinar tempor. Cum sociis natoque 
+						penatibus et magnis dis parturient montes.
+					</p>
+					<p>
+						Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean euismod 
+						bibendum laoreet.
+					</p>
+
+					<button class="btn-highlight">
+						Download
+					</button>
+				</div>
+
+				<div class="img-container" id="tab-image">
+					<amp-img alt="city" src="image_right_u255.webp" layout="responsive" width="320" height="124"></amp-img>
+					<amp-img alt="city-reflection" class="reflection" src="image_right_u255.webp" layout="responsive" width="320" height="124"></amp-img>
+				</div>
+			</div>
+
+		</section>
+
+		<section id="sublist-feature" class="background-color bg-light">
+			<div class="flex-cols">
+				<div class="img-container">
+					<amp-img alt="img1" class="img-card" src="image_left.webp" layout="responsive" width="453" height="303"></amp-img>
+				</div>
+
+				<div class="flex-rows">
+					<h2>Sub list section</h2>
+					<span class="separator separator-highlight"></span>
+					<p>
+						Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean 
+						euismod bibendum laoreet. Proin gravida dolor sit amet lacus 
+						accumsan et viverra justo commodo.
+					</p>
+
+					<div class="with-icon">
+						<div class="icon-circled">
+							<i class="fa-solid fa-cloud-arrow-up"></i>
+						</div>
+
+						<div class="content flex-rows">
+							<h3>Title</h3>
+							<p>
+								Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean 
+								euismod bibendum laoreet.
+							</p>
+						</div>
+					</div>
+
+					<div class="with-icon">
+						<div class="icon-circled">
+							<i class="fa-solid fa-cloud-arrow-down"></i>
+						</div>
+
+						<div class="content flex-rows">
+							<h3>Title</h3>
+							<p>
+								Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean 
+								euismod bibendum laoreet. Proin gravida dolor sit amet lacus 
+								accumsan et viverra justo commodo.
+							</p>
+						</div>
+					</div>
+				</div>
+			</div>
+		</section>
+
+		<section id="picture-feature" class="background-color bg-light">
+			<div class="flex-cols">
+				<div class="flex-rows">
+					<h2>Standard picture section</h2>
+					<span class="separator separator-highlight"></span>
+					<p>
+						Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean 
+						euismod bibendum laoreet. Proin gravida dolor sit amet lacus accumsan 
+						et viverra justo commodo. Proin sodales pulvinar tempor. Cum sociis 
+						natoque penatibus et magnis dis parturient montes.
+					</p>
+					<p>
+						Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean euismod 
+						bibendum laoreet.
+					</p>
+				</div>
+
+				<div class="img-col img-container">
+					<amp-img alt="img2" src="image_right.webp" class="img-card"  layout="responsive" width="453" height="303"></amp-img>
+				</div>
+			</div>
+		</section>
+
+		<section id="about" class="background-color bg-light">
+			<div class="flex-cols">
+				<div class="flex-rows">
+					<h1>Why is this awesome</h1>
+					<span class="separator separator-highlight"></span>
+					<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+					<div class="flex-cols">
+						<div class="flex-rows">
+							<div class="icon-circled">
+								<i class="fa-regular fa-lightbulb fa-2x"></i>
+							</div>
+							
+							<h2>Thoughtful Design</h2>
+							<p>
+								Lorem ipsum dolor sit amet, consectetur adipiscing 
+								elit. Aenean euismod bibendum laoreet. Proin gravida 
+								dolor sit amet lacus accumsan et viverra.
+							</p>
+						</div>
+
+						<div class="flex-rows">
+							<div class="icon-circled">
+								<i class="fa-regular fa-keyboard fa-2x"></i>
+							</div>
+							
+							<h2>Well Crafted</h2>
+							<p>
+								Lorem ipsum dolor sit amet, consectetur adipiscing 
+								elit. Aenean euismod bibendum laoreet. Proin gravida 
+								dolor sit amet lacus accumsan et viverra.
+							</p>
+						</div>
+
+						<div class="flex-rows">
+							<div class="icon-circled">
+								<i class="fa-solid fa-bolt fa-2x"></i>
+							</div>
+							
+							<h2>Easy to Customize</h2>
+							<p>
+								Lorem ipsum dolor sit amet, consectetur adipiscing 
+								elit. Aenean euismod bibendum laoreet. Proin gravida 
+								dolor sit amet lacus accumsan et viverra.
+							</p>
+						</div>
+					</div>
+				</div>
+			</div>
+		</section>
+	</div>
+
+	<section id="pricing" class="background-color">
+		<div class="flex-cols">
+			<div class="flex-rows">
+				<h1>Pricing options</h1>
+				<span class="separator separator-highlight"></span>
+				<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+
+				<div class="flex-cols" id="pricing-options">
+					<div class="pricing-option">
+						<div class="offer-header bg-dark">
+							<h2>Basic</h2>	
+						</div>	
+
+						<div class="offer-price bg-dark">
+							<div class="price-label">
+								<h1 class="dollar">$</h1>
+								<h1 class="number">0</h1>
+							</div>
+							<p>Free for Life</p>
+						</div>
+
+						<div class="offer-popularity bg-dark">
+							
+						</div>
+
+						<ul class="offer-features">
+							<li>
+								<p>1 gb of space</p>
+							</li>
+							<li>
+								<p>10 gb of bandwidth</p>
+							</li>
+							<li>
+								<p>3 websites</p>
+							</li>
+							<li>
+								<p>basic customization</p>
+							</li>
+							<li>
+								<p>wordpress integration</p>
+							</li>
+							<li>
+								<p>email support</p>
+							</li>
+						</ul>
+					</div>
+
+					<div class="pricing-option">
+						<div class="offer-header bg-dark">
+							<h2>Professional</h2>	
+						</div>	
+
+						<div class="offer-price bg-dark">
+							<div class="price-label">
+								<h1 class="dollar">$</h1>
+								<h1 class="number">19</h1>
+							</div>
+							<p>Monthly payment</p>
+						</div>
+
+						<div class="offer-popularity bg-dark">
+							<h3>our most popular</h3>
+						</div>
+
+						<ul class="offer-features">
+							<li>
+								<p>5 gb of space</p>
+							</li>
+							<li>
+								<p>50 gb of bandwidth</p>
+							</li>
+							<li>
+								<p>12 websites</p>
+							</li>
+							<li>
+								<p>advanced customization</p>
+							</li>
+							<li>
+								<p>wordpress integration</p>
+							</li>
+							<li>
+								<p>email support</p>
+							</li>
+						</ul>
+					</div>
+
+					<div class="pricing-option">
+						<div class="offer-header bg-dark">
+							<h2>Enterprise</h2>	
+						</div>	
+
+						<div class="offer-price bg-dark">
+							<div class="price-label">
+								<h1 class="dollar">$</h1>
+								<h1 class="number">70</h1>
+							</div>
+							<p>Monthly payment</p>
+						</div>
+
+						<div class="offer-popularity bg-dark">
+							
+						</div>
+
+						<ul class="offer-features">
+							<li>
+								<p>unlimited space</p>
+							</li>
+							<li>
+								<p>unlimited bandwidth</p>
+							</li>
+							<li>
+								<p>100 websites</p>
+							</li>
+							<li>
+								<p>advanced customization</p>
+							</li>
+							<li>
+								<p>wordpress integration</p>
+							</li>
+							<li>
+								<p>24/7 customer support</p>
+							</li>
+						</ul>
+					</div>
+				</div>
+			</div>
+		</div>
+	</section>
+
+
+	<section id="reviews" class="background-color">
+		<div class="flex-cols">
+			<div class="flex-rows">
+				<h1>What our customers are saying</h1>
+				<span class="separator separator-highlight"></span>
+				<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+				<div class="flex-cols" id="comments">
+					<div>
+						<div class="comment">
+							<div class="comment-text">
+								<p>
+									Lorem ipsum dolor sit amet, consectetur adipisicing elit. Doloribus 
+									accusamus expedita repellat similique odio aspernatur ex, architecto 
+									eaque quo suscipit.
+								</p>
+							</div>
+							<div class="triangle"></div>
+						</div>
+
+						<div class="customer">
+							<div class="customer-avatar img-container">
+								<amp-img alt="avatar" src="avatar.webp" layout="responsive" width="70" height="70"></amp-img>
+							</div>
+
+							<div class="customer-about">
+								<h2>Jeremy H.</h2>
+								<p>Manager</p>
+							</div>
+						</div>
+					</div>
+
+					<div>
+						<div class="comment">
+							<div class="comment-text">
+								<p>
+									Lorem ipsum dolor sit amet, consectetur adipisicing elit. Doloribus 
+									accusamus expedita repellat similique odio aspernatur ex, architecto 
+									eaque quo suscipit.
+								</p>
+							</div>
+							<div class="triangle"></div>
+						</div>
+
+						<div class="customer">
+							<div class="customer-avatar img-container">
+								<amp-img alt="avatar" src="avatar.webp" layout="responsive" width="70" height="70"></amp-img>
+							</div>
+
+							<div class="customer-about">
+								<h2>John S.</h2>
+								<p>Freelancer</p>
+							</div>
+						</div>
+					</div>
+
+					<div>
+						<div class="comment">
+							<div class="comment-text">
+								<p>
+									Lorem ipsum dolor sit amet, consectetur adipisicing elit. Doloribus 
+									accusamus expedita repellat similique odio aspernatur ex, architecto 
+									eaque quo suscipit.
+								</p>
+							</div>
+							<div class="triangle"></div>
+						</div>
+
+						<div class="customer">
+							<div class="customer-avatar img-container">
+								<amp-img alt="avatar" src="avatar.webp" layout="responsive" width="70" height="70"></amp-img>
+							</div>
+
+							<div class="customer-about">
+								<h2>Susan W.</h2>
+								<p>Photographer</p>
+							</div>
+						</div>
+					</div>
+				</div>	
+			</div>
+		</div>
+	</section>
+
+	<section id="download-section" class="background-color">
+		<div class="flex-cols">
+			<div class="img-foreground bg-dark flex-rows">
+				<h1>stylish axure design</h1>
+				<span class="separator separator-light"></span>
+				<p>Use the sections you need, remove the ones you don't. Create gorgeous prototypes faster than ever!</p>
+				<button class="btn-light">Download</button>
+			</div>
+		</div>
+	</section>
+
+
+	<section id="contact" class="background-color bg-light">
+		<div class="flex-cols">
+			<form name="contact" method="post" class="flex-rows" action-xhr="#">
+				<h1>Contact us</h1>
+				<span class="separator separator-highlight"></span>
+				<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+
+				<div class="flex-cols">
+					<div class="flex-rows">
+						<input type="text" name="name" placeholder="Name">
+						<input type="text" name="email" placeholder="Email">
+						<input type="text" name="subject" placeholder="Subject">
+					</div>
+
+					<div>
+						<textarea name="message" placeholder="Message"></textarea>
+					</div>
+				</div>
+
+				<button type="submit" class="btn-highlight">Send Message</button>
+			</form>
+		</div>
+		
+	</section>
+
+
+	<footer class="bg-dark">
+		<div class="flex-cols">
+			<div class="flex-rows">
+				<ul>
+					<li>
+						<i class="fa-brands fa-facebook-f fa-2x"></i>
+						<a class="embedded-link" href=""></a>
+					</li>
+					<li>
+						<i class="fa-brands fa-linkedin fa-2x"></i>
+						<a class="embedded-link" href=""></a>
+					</li>
+					<li>
+						<i class="fa-brands fa-pinterest fa-2x"></i>
+						<a class="embedded-link" href=""></a>
+					</li>
+					<li>
+						<i class="fa-brands fa-instagram fa-2x"></i>
+						<a class="embedded-link" href=""></a>
+					</li>
+					<li>
+						<i class="fa-brands fa-x-twitter fa-2x"></i>	
+						<a class="embedded-link" href=""></a>
+					</li>
+				</ul>
+
+				<p>&copy; 2015 Axure Themes</p>
+			</div>
+		</div>
+		
+	</footer>
+</body>
+</html>

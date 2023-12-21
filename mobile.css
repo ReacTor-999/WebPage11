@@ -1,0 +1,52 @@
+.flex-cols {
+  display: flex;
+  flex-direction: column;
+}
+.flex-cols > * {
+  margin-inline: 10%;
+  margin-bottom: 10pt;
+}
+.flex-cols > :first-child {
+  margin-top: 10pt;
+}
+.flex-cols > :last-child {
+  margin-bottom: 10pt;
+}
+.flex-cols li {
+  display: flex;
+  position: relative;
+}
+.flex-cols .flex-cols > * {
+  margin-inline: 0;
+}
+#tab-buttons {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+#tab-buttons button {
+  padding: 20pt;
+}
+.img-container {
+  align-content: center;
+}
+.img-container img {
+  margin: 0;
+  width: 100%;
+}
+#hello #col-hello-article {
+  flex-basis: 60%;
+}
+#hello #col-get-started {
+  width: 80%;
+}
+#hello #col-get-started .form-card {
+  height: 300pt;
+}
+.pricing-option {
+  margin-bottom: 30pt;
+  margin-inline: 10%;
+}
+section {
+  padding-block: 30pt;
+}
